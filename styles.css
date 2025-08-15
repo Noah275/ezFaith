@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgb(45, 132, 132);
+    display: flex;
+    gap: 1.5rem;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+header{
+    max-width: 1200px;
+    margin: auto;
+   
+    }
+
+    .ezCon{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 15vh;
+    }
+    
+    .under{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+
+}
+
+.txt{
+    line-height: 2rem;
+
+   }
+
+
+   .txt> h4{
+    color: rgb(225, 126, 4);
+    font-size: 19px;
+}
+
+
+
+.socialBox{
+   line-height: 2rem;
+   }
+
+.socialBox > p {
+    text-transform: capitalize;
+   
+}
+   .socialBox > span{
+    display: flex;
+    justify-content: end;
+    gap: 0.5rem;
+   }
+
+.imgbox{
+    height: 35vh;
+    background-image: url(https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/Sb7uiLMltks8nrrky/videoblocks-v1-0028_20230315-sf-shirokov-business-lifestyle-1-studio-crossmedia00000000_r5ompqeun_thumbnail-1080_10.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgboo{
+    text-align: center;
+}
+
+.imgboo>h2{
+    color: rgb(225, 126, 4);
+    font-size: 4rem;
+    text-transform: capitalize;
+}
+
+.genLayout{
+    max-width: 1020px;
+    margin: auto;
+}
+
+.parabox{
+    background-color: #f8f8f8;
+    padding: 4rem 0rem;
+    }
+    .paragraph{
+        text-align: left;
+        color: #555;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+     .card-section{
+        background-color: #f8f8f8;
+        
+
+       
+    }
+    .contact-card{
+        /* height: 250px; */
+        /* width: 1200px; */
+        display: flex;
+        gap: 50px;
+        margin-left: 210px;
+        background-color:#f8f8f8;
+
+    }
+
+     .card{
+        background-color: #fff;
+        padding: 2rem 1.5rem;
+        box-shadow: none;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 650px;
+        height: 270px;
+        transition: transform 0.3s ease;
+    }
+    .card:hover{
+        transform: scale(1.05);
+    }
+    .icon-circle{
+        width: 60px;
+        height: 60px;
+        border-radius: 50px;
+        background-color: #f8f8f8;
+        border: 2px solid #ffb95c;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 1rem;
+    } 
+
+    .icon{
+        font-size: 1.5rem;
+        color:#ffb95c;
+        line-height: 2rem;
+    }
+
+    .card>h3{
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+        color: #333;
+        line-height: 2rem;
+    }
+    .card>p{
+        color: #666;
+        font-size: 0.95rem;
+    }  
+ 
+    .box{
+    
+        background-color: #f8f8f8;
+    }
+
+.txtBox > h2{
+    font-size: 2rem;
+    color: #f09e29;
+    padding-top: 6rem;
+
+}
+
+.formCont{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 2rem;
+
+}
+
+.formCon{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   
+}
+.formCon>input{
+    height: 50px;
+    width: 500px;
+    font-size: 15px;
+    text-transform: capitalize;
+    border: 1px solid #f09e29;
+    font-weight: 600;
+    padding-left: 1rem;
+}
+
+.boxArea  > p{
+    font-weight: 600;
+
+}
+
+.boxArea>textarea{
+    height: 150px;
+    width: 1020px;
+    text-transform: capitalize;
+    font-size: 15px;
+    border: 1px solid #f09e29;
+    padding-top: 1rem;
+    font-weight: 600;
+}
+
+.formBox{
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+
+}
+
+.formBox > p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.1rem;
+}
+
+.formBox>input{
+    border: 1px solid #f09e29;
+    height: 50px;
+    width: 45px;
+   margin-left: -1rem;
+}
+.formBox>button{
+    border: 1px solid #f09e29;
+    background-color: #f09e29;
+    padding: 1rem 4rem;
+    border-radius: 5px;
+    font-size: 15px ;
+    font-weight: 600;
+}
+
+
+
+
