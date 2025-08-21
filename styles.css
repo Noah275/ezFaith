@@ -272,6 +272,7 @@ header{
     .card>p{
         color: #666;
         font-size: 0.95rem;
+        text-decoration: none;
     }  
 
      @media(min-width:320px) and (max-width:500px){
@@ -410,6 +411,7 @@ header{
     .formBox>button{
         padding: 0.5rem 2rem;
         font-size: 10px;
+        color: black;
     }
 }
 
